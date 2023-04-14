@@ -16,10 +16,10 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="../js-lecture-template/css/normalize.css">
-  <link rel="stylesheet" href="../js-lecture-template/css/main.css">
-  <link rel="stylesheet" href="../js-lecture-template/css/boxsizing.css">
-  <link rel="stylesheet" href="../js-lecture-template/css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/boxsizing.css">
+  <link rel="stylesheet" href="css/styles.css">
 
   <script src="js/main.js" defer></script>
 
@@ -28,6 +28,21 @@
 
 <body>
 <h1 class="page-title">JS - Zajęcia 2</h1>
+
+<div class="days-container">
+  <label for="days">Wybierz dzień tygodnia:</label>
+  <select id="days">
+    <option value="">--Wybierz dzień--</option>
+    <option value="poniedziałek">Poniedziałek</option>
+    <option value="wtorek">Wtorek</option>
+    <option value="środa">Środa</option>
+    <option value="czwartek">Czwartek</option>
+    <option value="piątek">Piątek</option>
+    <option value="sobota">Sobota</option>
+    <option value="niedziela">Niedziela</option>
+  </select>
+</div>
+
 <div class="js-content">
   <code id="js-output"></code>
 </div>
